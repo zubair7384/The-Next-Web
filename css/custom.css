@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+.custom-navbar{
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    padding-bottom: .9rem;
+    padding-left: .5rem;
+    padding-right: 1.2rem;
+    cursor: pointer;
+    background: rgb(229,0,105);
+    background: -moz-linear-gradient(-45deg, rgba(229,0,105,1) 0%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(229,0,105,1) 0%,rgba(255,0,0,1) 100%);
+    background: linear-gradient(135deg, rgba(229,0,105,1) 0%,rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50069', endColorstr='#ff0000',GradientType=1 );
+}
+.logo:hover{
+    background-image: url("../img/home-1.gif");
+}
+.logo >img{
+    padding-top: .8rem;
+    padding-left: .8rem;
+}
+strong:hover{
+    color: rgba(85, 78, 78, 0.788);
+    transition: .2s;
+}
+.col-body >img{
+    width: 55%;
+}
+.custom-col-one{
+    padding-top: 2rem;
+    flex: 0 0 64%;
+    max-width: 64%;
+    background-image: url("../img/btc.jpg");
+    background-size:cover; 
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.custom-col-two{
+    flex: 0 0 34%;
+    max-width: 34%; 
+}
+.col-item-one{
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    background-image: url("../img/col-3.jpg");
+    background-size: cover;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-item-two{
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    background-image: url("../img/col-2.jpg");
+    background-size: cover;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.main-heading >h2:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: .1s;
+}
+.card-body .custom-card-text:hover{
+    cursor: pointer;
+    color: rgb(233, 25, 25);
+    transition: .1s;
+    text-decoration: underline rgba(233, 25, 25, 0.363);
+}
+#footer .container-fluid{
+    background: black !important;
+}
+@media screen and (max-width: 812px) { 
+    .custom-col-one{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+.custom-col-two{
+    flex: 0 0 100%;
+    max-width: 100%; 
+}
+}
+@media screen and (max-width: 576px) { 
+    .custom-col-one{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+.custom-col-two{
+    flex: 0 0 100%;
+    max-width: 100%; 
+    margin: 0;
+}
+
+}
